@@ -1,0 +1,68 @@
+INFO  started: Metals version 0.8.4 in workspace '/home/thomas/IdeaProjects/zio'
+INFO  time: initialize in 0.29s
+INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3637670617621925844/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /home/thomas/.sbt/1.0/plugins
+INFO  [info] Loading settings for project zio-build from metals.sbt ...
+INFO  [info] Loading project definition from /home/thomas/IdeaProjects/zio/project
+INFO  [info] Loading settings for project zio from build.sbt ...
+INFO  [info] Set current project to zio (in build file:/home/thomas/IdeaProjects/zio/)
+INFO  [success] Generated .bloop/zio.json
+INFO  [success] Generated .bloop/zio-test.json
+INFO  [success] Total time: 0 s, completed May 3, 2020 9:03:13 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 6.68s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5319496856483363985/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/thomas/IdeaProjects/zio/.bloop'...
+[0m[32m[D][0m Loading project from '/home/thomas/IdeaProjects/zio/.bloop/zio-test.json'
+[0m[32m[D][0m Loading project from '/home/thomas/IdeaProjects/zio/.bloop/zio.json'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5319496856483363985/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5319496856483363985/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/thomas/.cache/metals/bsp.trace.json
+INFO  time: connected to build server in 0.17s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+WARN  Could not find java sources in Some(/usr/lib/jvm/java-8-openjdk-amd64). Java symbols will not be available.
+INFO  time: indexed workspace in 1.45s
+INFO  compiling zio (8 scala sources)
+May 03, 2020 9:03:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+May 03, 2020 9:03:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+May 03, 2020 9:03:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+INFO  time: compiled zio in 11s
+INFO  compiling zio (8 scala sources)
+INFO  time: compiled zio in 0.58s
+May 03, 2020 9:03:33 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+INFO  compiling zio (8 scala sources)
+INFO  time: compiled zio in 0.37s
+INFO  compiling zio (8 scala sources)
+INFO  time: compiled zio in 0.3s
+INFO  compiling zio (8 scala sources)
+INFO  time: compiled zio in 2s
+May 03, 2020 9:03:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+INFO  compiling zio (1 scala source)
+INFO  time: compiled zio in 0.24s
+INFO  compiling zio (1 scala source)
+INFO  time: compiled zio in 0.18s
+INFO  compiling zio (1 scala source)
+INFO  time: compiled zio in 0.31s
+INFO  compiling zio (2 scala sources)
+INFO  time: compiled zio in 1.22s
+INFO  compiling zio (3 scala sources)
+INFO  time: compiled zio in 0.79s
+INFO  compiling zio (1 scala source)
+INFO  time: compiled zio in 1.25s
+INFO  compiling zio (2 scala sources)
+INFO  time: compiled zio in 1.25s
+INFO  compiling zio (3 scala sources)
+INFO  time: compiled zio in 1.24s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

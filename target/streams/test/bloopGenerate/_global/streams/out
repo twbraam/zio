@@ -1,0 +1,4 @@
+[debug] [zio-test] Classpath dependencies List()
+[debug] [zio-test] Dependencies from configurations List(zio)
+[debug] Bloop wrote the configuration of project 'zio-test' to '/home/thomas/IdeaProjects/zio/.bloop/zio-test.json'
+[success] Generated .bloop/zio-test.json

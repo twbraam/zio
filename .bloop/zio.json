@@ -1,0 +1,219 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "zio",
+        "directory": "/home/thomas/IdeaProjects/zio",
+        "workspaceDir": "/home/thomas/IdeaProjects/zio",
+        "sources": [
+            "/home/thomas/IdeaProjects/zio/src/main/scala-2.13",
+            "/home/thomas/IdeaProjects/zio/src/main/scala",
+            "/home/thomas/IdeaProjects/zio/src/main/java",
+            "/home/thomas/IdeaProjects/zio/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.13/1.0.0-RC18-2/zio_2.13-1.0.0-RC18-2.jar",
+            "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.13/1.0.0-RC18-2/zio-stacktracer_2.13-1.0.0-RC18-2.jar",
+            "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.13/0.12.0-M0/izumi-reflect_2.13-0.12.0-M0.jar",
+            "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.13/0.12.0-M0/izumi-reflect-thirdparty-boopickle-shaded_2.13-0.12.0-M0.jar"
+        ],
+        "out": "/home/thomas/IdeaProjects/zio/.bloop/zio",
+        "classesDir": "/home/thomas/IdeaProjects/zio/.bloop/zio/scala-2.13/classes",
+        "resources": [
+            "/home/thomas/IdeaProjects/zio/src/main/resources",
+            "/home/thomas/IdeaProjects/zio/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+            ],
+            "analysis": "/home/thomas/IdeaProjects/zio/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    "-Duser.dir=/home/thomas/IdeaProjects/zio"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio_2.13",
+                    "version": "1.0.0-RC18-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio_2.13",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.13/1.0.0-RC18-2/zio_2.13-1.0.0-RC18-2.jar"
+                        },
+                        {
+                            "name": "zio_2.13",
+                            "classifier": "sources",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_2.13/1.0.0-RC18-2/zio_2.13-1.0.0-RC18-2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-stacktracer_2.13",
+                    "version": "1.0.0-RC18-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-stacktracer_2.13",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.13/1.0.0-RC18-2/zio-stacktracer_2.13-1.0.0-RC18-2.jar"
+                        },
+                        {
+                            "name": "zio-stacktracer_2.13",
+                            "classifier": "sources",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.13/1.0.0-RC18-2/zio-stacktracer_2.13-1.0.0-RC18-2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "izumi-reflect_2.13",
+                    "version": "0.12.0-M0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "izumi-reflect_2.13",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.13/0.12.0-M0/izumi-reflect_2.13-0.12.0-M0.jar"
+                        },
+                        {
+                            "name": "izumi-reflect_2.13",
+                            "classifier": "sources",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_2.13/0.12.0-M0/izumi-reflect_2.13-0.12.0-M0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "izumi-reflect-thirdparty-boopickle-shaded_2.13",
+                    "version": "0.12.0-M0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "izumi-reflect-thirdparty-boopickle-shaded_2.13",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.13/0.12.0-M0/izumi-reflect-thirdparty-boopickle-shaded_2.13-0.12.0-M0.jar"
+                        },
+                        {
+                            "name": "izumi-reflect-thirdparty-boopickle-shaded_2.13",
+                            "classifier": "sources",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.13/0.12.0-M0/izumi-reflect-thirdparty-boopickle-shaded_2.13-0.12.0-M0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

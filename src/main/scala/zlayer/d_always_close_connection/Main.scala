@@ -1,11 +1,9 @@
 package zlayer.d_always_close_connection
 
-import zlayer.d_always_close_connection.modules.{Logging, UserRepo}
-import zlayer.d_always_close_connection.domain._
 import zio._
-import zio.clock.Clock
 import zio.console._
-import zio.random.Random
+import zlayer.d_always_close_connection.domain._
+import zlayer.d_always_close_connection.modules.{Logging, UserRepo}
 
 
 object Main extends zio.App {

@@ -2,7 +2,6 @@ package zlayer.a_simple
 
 import zio._
 import zlayer.a_simple.domain._
-import zlayer.d_always_close_connection.domain.DBError
 
 
 object Main extends zio.App {

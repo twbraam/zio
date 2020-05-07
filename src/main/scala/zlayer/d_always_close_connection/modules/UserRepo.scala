@@ -16,8 +16,7 @@ object UserRepo extends DBConnection {
     ZIO.accessM(_.get.createUser(user))
 
 
-  import java.sql.Connection
-  import java.sql.DriverManager
+  import java.sql.{Connection, DriverManager}
 
   def makeConnection: IO[DBError, Connection] = Task(DriverManager.getConnection("jdbc:mysql://localhost:6666/jcg", "root", "password"))
     .catchAll {

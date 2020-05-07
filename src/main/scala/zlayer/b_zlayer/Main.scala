@@ -1,11 +1,9 @@
 package zlayer.b_zlayer
 
-import zlayer.b_zlayer.modules.{Logging, UserRepo}
-import zlayer.b_zlayer.domain._
 import zio._
-import zio.clock.Clock
 import zio.console._
-import zio.random.Random
+import zlayer.b_zlayer.domain._
+import zlayer.b_zlayer.modules.{Logging, UserRepo}
 
 
 object Main extends zio.App {

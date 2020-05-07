@@ -1,11 +1,11 @@
 package zlayer.e_zenv
 
-import zlayer.e_zenv.modules.{Logging, UserRepo}
-import zlayer.e_zenv.domain._
 import zio._
 import zio.clock.Clock
 import zio.console._
 import zio.random.Random
+import zlayer.e_zenv.domain._
+import zlayer.e_zenv.modules.{Logging, UserRepo}
 
 
 object Main extends zio.App {

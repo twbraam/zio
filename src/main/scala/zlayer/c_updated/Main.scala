@@ -1,11 +1,9 @@
 package zlayer.c_updated
 
-import zlayer.c_updated.modules.{Logging, UserRepo}
-import zlayer.c_updated.domain._
 import zio._
-import zio.clock.Clock
 import zio.console._
-import zio.random.Random
+import zlayer.c_updated.domain._
+import zlayer.c_updated.modules.{Logging, UserRepo}
 
 
 object Main extends zio.App {

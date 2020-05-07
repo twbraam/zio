@@ -1,0 +1,5 @@
+/src/main/scala/test/
+/.bloop/
+/.idea/
+/.metals/
+/.vscode/
